@@ -1,0 +1,28 @@
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: hsl(0, 0%, 100%);
+  background-color: rgb(45, 45, 45);
+}
+
+img {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+a.main-page.recipe {
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  text-align: center;
+}
+
+a.main-page.recipe:visited {
+  color: hsl(39, 100%, 50%);
+}
