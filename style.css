@@ -8,7 +8,7 @@ img {
   width: 500px;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 90px auto;
 }
 
 h1 {
@@ -17,10 +17,36 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+ul.ingredients li {
+  font-size: large;
+  margin-bottom: 30px;
+  padding-right: 220px;
+}
+
+ol.steps li {
+  font-size: large;
+  margin-bottom: 30px;
+  padding-right: 220px;
+}
+
+p.description {
+  font-size: large;
+  margin-bottom: 30px;
+  padding-right: 220px;
+}
 a.main-page.recipe {
   color: hsl(0, 0%, 100%);
   font-size: 30px;
+  display: inline-block;
   text-align: center;
+  margin-bottom: 40px;
+  margin-left: 10px;
 }
 
 a.main-page.recipe:visited {
